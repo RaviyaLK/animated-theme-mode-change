@@ -1,14 +1,18 @@
 name: theme_mode_change
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.2.5 <4.0.0'
+  sdk: ">=3.2.5 <4.0.0"
 
 dependencies:
+  adaptive_theme: ^3.6.0
   flutter:
     sdk: flutter
+
+  go_router: ^13.1.0
+  rive: ^0.12.4
 
 dev_dependencies:
   flutter_test:
